@@ -9,8 +9,11 @@
             ]
         }
     },
-    "icons": { "16": "fly-16.jpg", "128": "fly-128.png" },
-    "permissions" : [
+    "icons": {
+        "16": "fly-16.jpg",
+        "128": "fly-128.png"
+    },
+    "permissions": [
         "webview",
         "http://www.qunar.com/",
         "http://www.kuxun.com/",

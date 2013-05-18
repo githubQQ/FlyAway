@@ -1,0 +1,19 @@
+{
+    "name": "Air ticket search",
+    "description": "The packaged app to search the air ticket from qunar, kuxun & taobao.",
+    "version": "0.1",
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    },
+    "icons": { "16": "fly-16.jpg", "128": "fly-128.png" },
+    "permissions" : [
+        "webview",
+        "http://www.qunar.com/",
+        "http://www.kuxun.com/",
+        "http://trip.taobao.com/"
+    ]
+}
